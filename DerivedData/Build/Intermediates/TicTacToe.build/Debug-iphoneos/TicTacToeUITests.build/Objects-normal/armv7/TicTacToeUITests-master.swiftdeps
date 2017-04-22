@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "583bea9bde40154630cd5dff6e142095"
+build_time: [545698328, 355042000]
+inputs:
+  "/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToeUITests/TicTacToeManagerTest.swift": [545698313, 0]
+  "/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToeUITests/ViewControllerTest.swift": [545697946, 0]

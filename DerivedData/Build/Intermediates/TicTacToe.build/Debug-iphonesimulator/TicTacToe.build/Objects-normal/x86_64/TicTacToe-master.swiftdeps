@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "48a3ba24268c8bed76494ef34f4b3115"
+build_time: [545699075, 694573000]
+inputs:
+  "/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToe/Common/Debug.swift": [545699075, 0]
+  "/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToe/Image.swift": [545588246, 0]
+  "/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToe/Manager/TicTacToeManager.swift": [545583890, 0]
+  "/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToe/Common/Utility.swift": [545478757, 0]
+  "/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToe/ViewController.swift": [545588246, 0]
+  "/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToe/Common/Constants.swift": [545587287, 0]
+  "/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToe/StateDefinition.swift": [545563692, 0]
+  "/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToe/TicTacToeDelegateProtocol.swift": [545558375, 0]
+  "/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToe/AppDelegate.swift": [545471650, 0]
+  "/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToe/DBManager.swift": [545558375, 0]

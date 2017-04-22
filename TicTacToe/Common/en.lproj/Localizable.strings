@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  TicTacToe
+
+  Created by Chia Wei Zheng Terry on 15/4/17.
+  Copyright © 2017 Chia Wei Zheng Terry. All rights reserved.
+*/
+
+/********* Title **********/
+"Player A" = "Player A";
+
+"Player B" = "Player B";
+
+/********* Win **********/
+"Win Title" = " has won!";
+
+/********* Draw **********/
+"Draw Title" = "This game is a draw!";
+
+/********* Score **********/
+"Player A Score" = "Player A Score";
+
+"Player B Score" = "Player B Score";
+
+/********* Buttons **********/
+"Ok" = "Ok";

@@ -1,0 +1,42 @@
+06:51:54.210 Xcode[35492:2328953] Beginning test session TicTacToeUITests-89AA1009-D4DE-409B-92AC-A003ADA2DF85 at 2017-04-17 06:51:54.209 with Xcode 8C1002 on target <DVTiOSDevice: 0x7fd361e61ac0> {
+		deviceSerialNumber:         DX3HR3FQDTD2
+		identifier:                 a018da509417bdf216f5ef229c9eaa842ebf7b9b
+		deviceClass:                iPhone
+		deviceName:                 Chia Wei Zheng Terry’s iPhone
+		deviceIdentifier:           a018da509417bdf216f5ef229c9eaa842ebf7b9b
+		productVersion:             9.3.5
+		buildVersion:               13G36
+		deviceSoftwareVersion:      9.3.5 (13G36)
+		deviceArchitecture:         armv7f
+		deviceTotalCapacity:        13483642880
+		deviceAvailableCapacity:    4783980544
+		deviceIsTransient:          NO
+		ignored:                    NO
+		deviceIsBusy:               NO
+		deviceIsActivated:          YES
+		deviceActivationState:      Activated
+		deviceType:                 <DVTDeviceType:0x7fd35dfd0ea0 Xcode.DeviceType.iPhone>
+		supportedDeviceFamilies:    (
+    1
+)
+		applications:              (null)
+		provisioningProfiles:      (null)
+		activityProgress:          -2
+		activityTitle:             
+		hasInternalSupport:        NO
+		isSupportedOS:             YES
+		developerDiskMountError:   (null)
+(null)
+	} (9.3.5 (13G36))
+06:51:54.211 Xcode[35492:2328953] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+06:51:54.213 Xcode[35492:2328953] Initializing test infrastructure.
+06:51:55.376 Xcode[35492:2661357] Creating the test bundle connection.
+06:51:55.377 Xcode[35492:2661357] Listening for proxy connection request from the test bundle (all platforms)
+06:51:55.377 Xcode[35492:2661357] Resuming the connection.
+06:51:55.377 Xcode[35492:2661357] Test connection requires daemon assistance.
+06:52:07.108 Xcode[35492:2328953] Starting test session with ID 89AA1009-D4DE-409B-92AC-A003ADA2DF85
+06:52:07.108 Xcode[35492:2328953] Checking test manager availability..., will wait up to 120s
+06:52:07.135 Xcode[35492:2661522] testmanagerd handled session request.
+06:52:07.150 Xcode[35492:2328953] Waiting for test process to launch.
+06:52:11.484 Xcode[35492:2328953] Test operation failure: Test operation was canceled.
+06:52:11.484 Xcode[35492:2328953] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=3 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.} didCancel: 1

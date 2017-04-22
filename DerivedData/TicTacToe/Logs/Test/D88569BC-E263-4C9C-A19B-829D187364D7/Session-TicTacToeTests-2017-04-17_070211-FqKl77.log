@@ -1,0 +1,294 @@
+07:02:11.865 Xcode[35492:2328953] Beginning test session TicTacToeTests-4BE073C9-6695-4C68-A567-0518CBFB1E0B at 2017-04-17 07:02:11.864 with Xcode 8C1002 on target <DVTiPhoneSimulator: 0x7fd35e743550> {
+		SimDevice: SimDevice : iPhone 6 (FF39C064-37FF-4F6B-A27B-5FDD9A29C61C) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.2 (14C89) - com.apple.CoreSimulator.SimRuntime.iOS-10-2 }
+} (10.2 (14C89))
+07:02:11.865 Xcode[35492:2328953] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+07:02:11.865 Xcode[35492:2328953] Initializing test infrastructure.
+07:02:11.865 Xcode[35492:2672959] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Registered for sim device notification, got token 22
+07:02:11.865 Xcode[35492:2672959] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Unregistering for sim device notification with token 22
+07:02:11.865 Xcode[35492:2672959] Sim iPhone 6 is booted (state = 3)
+07:02:11.865 Xcode[35492:2672959] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+07:02:11.866 Xcode[35492:2672959] Returning /private/tmp/com.apple.launchd.6rk5JCUME3/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+07:02:11.866 Xcode[35492:2672959] Sim iPhone 6 has testmanagerd socket at /private/tmp/com.apple.launchd.6rk5JCUME3/com.apple.testmanagerd.unix-domain.socket
+07:02:11.866 Xcode[35492:2672959] Connected socket 105 to testmanagerd for Sim iPhone 6
+07:02:11.866 Xcode[35492:2672959] Creating the test bundle connection.
+07:02:11.866 Xcode[35492:2672959] Listening for proxy connection request from the test bundle (all platforms)
+07:02:11.866 Xcode[35492:2672959] Resuming the connection.
+07:02:11.866 Xcode[35492:2672959] Test connection requires daemon assistance.
+07:02:11.879 Xcode[35492:2328953] Received Ready from iOSSimulator
+07:02:11.879 Xcode[35492:2328953] Sending notification: NSConcreteNotification 0x7fd3632690d0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "FF39C064-37FF-4F6B-A27B-5FDD9A29C61C";
+}}
+07:02:11.879 Xcode[35492:2328953] Received Ready from iOSSimulator
+07:02:11.879 Xcode[35492:2328953] Sending notification: NSConcreteNotification 0x7fd34af0a330 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "FF39C064-37FF-4F6B-A27B-5FDD9A29C61C";
+}}
+07:02:11.882 Xcode[35492:2328953] Starting test session with ID 4BE073C9-6695-4C68-A567-0518CBFB1E0B
+07:02:11.882 Xcode[35492:2328953] Checking test manager availability..., will wait up to 120s
+07:02:12.126 Xcode[35492:2672604] testmanagerd handled session request.
+07:02:12.126 Xcode[35492:2328953] Waiting for test process to launch.
+07:02:15.109 Xcode[35492:2328953] Received Ready from iOSSimulator
+07:02:15.109 Xcode[35492:2328953] Sending notification: NSConcreteNotification 0x7fd361690450 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "FF39C064-37FF-4F6B-A27B-5FDD9A29C61C";
+}}
+07:02:15.114 Xcode[35492:2673240] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Registered for sim device notification, got token 23
+07:02:15.115 Xcode[35492:2673396] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Unregistering for sim device notification with token 23
+07:02:15.116 Xcode[35492:2673396] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Installing app at path: /Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator/TicTacToeUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.TicTacToeUITests-Runner";
+}
+07:02:15.136 Xcode[35492:2328953] Received Ready from iOSSimulator
+07:02:15.136 Xcode[35492:2328953] Sending notification: NSConcreteNotification 0x7fd3683f3a90 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "FF39C064-37FF-4F6B-A27B-5FDD9A29C61C";
+}}
+07:02:19.852 Xcode[35492:2673396] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Installed app at path: /Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator/TicTacToeUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.TicTacToeUITests-Runner";
+}
+07:02:19.853 Xcode[35492:2673396] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Launching app with identifier: com.apple.test.TicTacToeUITests-Runner and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+        "DYLD_FRAMEWORK_PATH" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator:/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator:/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/88/wp9m22_15fb6llt3tqcpy6tm0000gn/T/com.apple.dt.XCTest/6DCD6A2A-0456-47FC-80D7-AA894E73471D/remote-container/tmp/TicTacToeUITests-6DCD6A2A-0456-47FC-80D7-AA894E73471D.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys002";
+    stdout = "/dev/ttys002";
+    "wait_for_debugger" = 1;
+}
+07:02:19.908 Xcode[35492:2673271] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Launched app with identifier: com.apple.test.TicTacToeUITests-Runner (pid = 41636)
+07:02:19.909 Xcode[35492:2673271] Tracking pid 41636 for simulator <DVTiPhoneSimulator: 0x7fd35e743550> {
+		SimDevice: SimDevice : iPhone 6 (FF39C064-37FF-4F6B-A27B-5FDD9A29C61C) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.2 (14C89) - com.apple.CoreSimulator.SimRuntime.iOS-10-2 }
+}
+07:02:19.909 Xcode[35492:2673271] Checking to see if pid 41636 is valid: kill(pid, 0) = 0 (YES, it's still running)
+07:02:19.909 Xcode[35492:2673271] Setting up DVTNotifyOnProcDeath for pid 41636
+07:02:22.393 Xcode[35492:2673244] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Registered for sim device notification, got token 24
+07:02:22.393 Xcode[35492:2673244] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Unregistering for sim device notification with token 24
+07:02:22.393 Xcode[35492:2673244] Sim iPhone 6 is booted (state = 3)
+07:02:22.393 Xcode[35492:2673244] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+07:02:22.410 Xcode[35492:2673244] Returning /private/tmp/com.apple.launchd.6rk5JCUME3/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+07:02:22.410 Xcode[35492:2673244] Sim iPhone 6 has testmanagerd socket at /private/tmp/com.apple.launchd.6rk5JCUME3/com.apple.testmanagerd.unix-domain.socket
+07:02:22.411 Xcode[35492:2673244] Connected socket 112 to testmanagerd for Sim iPhone 6
+07:02:24.345 Xcode[35492:2328953] Got death notice for pid 41636, removing from SimulatorSessionMap
+07:02:24.586 Xcode[35492:2328953] Launch session started, setting a disallow-finish-token on the run operation.
+07:02:24.616 Xcode[35492:2328953] Adding console adaptor <IDEConsoleAdaptor: 0x7fd36793efc0 'target'> for test session 4BE073C9-6695-4C68-A567-0518CBFB1E0B.
+07:02:24.617 Xcode[35492:2328953] Received Ready from iOSSimulator
+07:02:24.617 Xcode[35492:2328953] Sending notification: NSConcreteNotification 0x7fd364643f90 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "FF39C064-37FF-4F6B-A27B-5FDD9A29C61C";
+}}
+07:02:24.619 Xcode[35492:2673330] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Registered for sim device notification, got token 25
+07:02:24.619 Xcode[35492:2673271] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Unregistering for sim device notification with token 25
+07:02:24.620 Xcode[35492:2328953] Received Ready from iOSSimulator
+07:02:24.620 Xcode[35492:2328953] Sending notification: NSConcreteNotification 0x7fd362961df0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "FF39C064-37FF-4F6B-A27B-5FDD9A29C61C";
+}}
+07:02:24.621 Xcode[35492:2673271] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Installing app at path: /Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator/TicTacToe.app and options: {
+    CFBundleIdentifier = "com.terrychia.TicTacToe";
+}
+07:02:29.396 Xcode[35492:2673271] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Installed app at path: /Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator/TicTacToe.app and options: {
+    CFBundleIdentifier = "com.terrychia.TicTacToe";
+}
+07:02:29.397 Xcode[35492:2673271] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Launching app with identifier: com.terrychia.TicTacToe and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+        "DYLD_FRAMEWORK_PATH" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator:/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection";
+        "DYLD_LIBRARY_PATH" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator:/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        XCInjectBundleInto = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator/TicTacToe.app/TicTacToe";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/88/wp9m22_15fb6llt3tqcpy6tm0000gn/T/com.apple.dt.XCTest/4BE073C9-6695-4C68-A567-0518CBFB1E0B/remote-container/tmp/TicTacToeTests-4BE073C9-6695-4C68-A567-0518CBFB1E0B.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys002";
+    stdout = "/dev/ttys002";
+    "wait_for_debugger" = 1;
+}
+07:02:29.444 Xcode[35492:2674116] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Launched app with identifier: com.terrychia.TicTacToe (pid = 41645)
+07:02:29.444 Xcode[35492:2674116] Tracking pid 41645 for simulator <DVTiPhoneSimulator: 0x7fd35e743550> {
+		SimDevice: SimDevice : iPhone 6 (FF39C064-37FF-4F6B-A27B-5FDD9A29C61C) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.2 (14C89) - com.apple.CoreSimulator.SimRuntime.iOS-10-2 }
+}
+07:02:29.444 Xcode[35492:2674116] Checking to see if pid 41645 is valid: kill(pid, 0) = 0 (YES, it's still running)
+07:02:29.444 Xcode[35492:2674116] Setting up DVTNotifyOnProcDeath for pid 41645
+07:02:29.445 Xcode[35492:2328953] Test process runnable PID is 41645.
+07:02:31.143 Xcode[35492:2328953] Launch session finished initial intensive file IO.
+07:02:31.143 Xcode[35492:2328953] Waiting for test process to check in..., will wait up to 120s
+07:02:31.971 Xcode[35492:2674116] Got proxy channel request from test bundle
+07:02:31.972 Xcode[35492:2674116] Test bundle is ready, running protocol 22, requires at least version 8. IDE is running 22 and requires at least 8
+07:02:31.972 Xcode[35492:2673271] Creating secondary transport and connection for whitelisting test process PID.
+07:02:31.972 Xcode[35492:2673271] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Registered for sim device notification, got token 26
+07:02:31.972 Xcode[35492:2673271] FF39C064-37FF-4F6B-A27B-5FDD9A29C61C: Unregistering for sim device notification with token 26
+07:02:31.972 Xcode[35492:2673271] Sim iPhone 6 is booted (state = 3)
+07:02:31.972 Xcode[35492:2673271] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+07:02:31.973 Xcode[35492:2673271] Returning /private/tmp/com.apple.launchd.6rk5JCUME3/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+07:02:31.973 Xcode[35492:2673271] Sim iPhone 6 has testmanagerd socket at /private/tmp/com.apple.launchd.6rk5JCUME3/com.apple.testmanagerd.unix-domain.socket
+07:02:31.973 Xcode[35492:2673271] Connected socket 111 to testmanagerd for Sim iPhone 6
+07:02:31.973 Xcode[35492:2673271] Creating the daemon control connection.
+07:02:31.973 Xcode[35492:2673271] Resuming the secondary connection.
+07:02:31.974 Xcode[35492:2673271] Whitelisting test process ID 41645
+07:02:32.020 Xcode[35492:2673244] Got whitelisting response and daemon protocol version 22
+07:02:32.021 testmanagerd[41490:2673229] Received request to collect crash reports in directories '/Users/chiaweizhengterry/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'TicTacToe', 'xctest'
+07:02:32.022 testmanagerd[41490:2673229] Initializing crash report observer for /Users/chiaweizhengterry/Library/Logs/DiagnosticReports
+07:02:32.023 testmanagerd[41490:2673229] Getting files in /Users/chiaweizhengterry/Library/Logs/DiagnosticReports
+07:02:32.029 testmanagerd[41490:2673229] Found 2 files in /Users/chiaweizhengterry/Library/Logs/DiagnosticReports
+07:02:32.030 testmanagerd[41490:2673229] Started monitoring /Users/chiaweizhengterry/Library/Logs/DiagnosticReports
+07:02:32.032 testmanagerd[41490:2673229] Initializing crash report observer for /Library/Logs/DiagnosticReports
+07:02:32.047 testmanagerd[41490:2673229] Getting files in /Library/Logs/DiagnosticReports
+07:02:32.057 testmanagerd[41490:2673229] Found 142 files in /Library/Logs/DiagnosticReports
+07:02:32.058 testmanagerd[41490:2673229] Started monitoring /Library/Logs/DiagnosticReports
+07:02:31.741 TicTacToe[41645:2674194] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built at Friday, December 16, 2016 at 6:52:27 AM Singapore Standard Time
+07:02:31.751 TicTacToe[41645:2674194] System uptime: 2d 11:21:39
+07:02:31.751 TicTacToe[41645:2674194] Process arguments: (
+    "/Users/chiaweizhengterry/Library/Developer/CoreSimulator/Devices/FF39C064-37FF-4F6B-A27B-5FDD9A29C61C/data/Containers/Bundle/Application/2EAA1F2C-C0FE-4FF0-89E4-0DEB67E5DE5F/TicTacToe.app/TicTacToe",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+07:02:31.752 TicTacToe[41645:2674194] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/chiaweizhengterry/Library/Developer/CoreSimulator/Devices/FF39C064-37FF-4F6B-A27B-5FDD9A29C61C/data/Containers/Data/Application/277FBB3C-3AFE-4751-BEED-11F733E572D4";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.R44JFcrPGD/Listeners";
+    "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator:/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator:/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/chiaweizhengterry/Library/Developer/CoreSimulator/Devices/FF39C064-37FF-4F6B-A27B-5FDD9A29C61C/data/Containers/Data/Application/277FBB3C-3AFE-4751-BEED-11F733E572D4";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.FF39C064-37FF-4F6B-A27B-5FDD9A29C61C.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/chiaweizhengterry/Library/Developer/CoreSimulator/Devices/FF39C064-37FF-4F6B-A27B-5FDD9A29C61C/data";
+    "IPHONE_SIMULATOR_CLASS" = N61;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/chiaweizhengterry/Library/Developer/CoreSimulator/Devices/FF39C064-37FF-4F6B-A27B-5FDD9A29C61C/data/Library/Application Support/Simulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 6.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 6";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/chiaweizhengterry/Library/Developer/CoreSimulator/Devices/FF39C064-37FF-4F6B-A27B-5FDD9A29C61C/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HOST_HOME" = "/Users/chiaweizhengterry";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/chiaweizhengterry/Library/Logs/CoreSimulator/FF39C064-37FF-4F6B-A27B-5FDD9A29C61C";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1334;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 750;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/chiaweizhengterry/Library/Developer/CoreSimulator/Devices/FF39C064-37FF-4F6B-A27B-5FDD9A29C61C/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone7,2";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_PRODUCT_CLASS" = N61;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14C89;
+    "SIMULATOR_RUNTIME_VERSION" = "10.2";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/chiaweizhengterry/Library/Developer/CoreSimulator/Devices/FF39C064-37FF-4F6B-A27B-5FDD9A29C61C/data";
+    "SIMULATOR_UDID" = "FF39C064-37FF-4F6B-A27B-5FDD9A29C61C";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 338.16 - Device: iPhone 6 - Runtime: iOS 10.2 (14C89) - DeviceType: iPhone 6";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.6rk5JCUME3/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/chiaweizhengterry/Library/Developer/CoreSimulator/Devices/FF39C064-37FF-4F6B-A27B-5FDD9A29C61C/data/Containers/Data/Application/277FBB3C-3AFE-4751-BEED-11F733E572D4/tmp";
+    XCInjectBundleInto = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator/TicTacToe.app/TicTacToe";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/88/wp9m22_15fb6llt3tqcpy6tm0000gn/T/com.apple.dt.XCTest/4BE073C9-6695-4C68-A567-0518CBFB1E0B/remote-container/tmp/TicTacToeTests-4BE073C9-6695-4C68-A567-0518CBFB1E0B.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.terrychia.TicTacToe[0xb1c7]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.FF39C064-37FF-4F6B-A27B-5FDD9A29C61C.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/chiaweizhengterry/Desktop/TicTacToe/DerivedData/Build/Products/Debug-iphonesimulator";
+}
+07:02:31.753 TicTacToe[41645:2674194] Loading DTXConnectionServices from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework
+07:02:31.765 TicTacToe[41645:2674194] Session ID 4BE073C9-6695-4C68-A567-0518CBFB1E0B
+07:02:31.765 TicTacToe[41645:2674194] Registering for testmanagerd availability notify post.
+07:02:31.766 TicTacToe[41645:2674194] testmanagerd availability confirmed via notify_get_state.
+07:02:31.766 TicTacToe[41645:2674194] Initiating connection to testmanagerd to request socket for IDE connection.
+07:02:31.768 TicTacToe[41645:2674194] Requesting socket
+07:02:31.781 TicTacToe[41645:2674321] Got daemon protocol version 6
+07:02:31.968 TicTacToe[41645:2674321] Got socket 7 from daemon, making connection to IDE
+07:02:31.968 TicTacToe[41645:2674321] Creating connection with transport
+07:02:31.969 TicTacToe[41645:2674321] Resuming connection
+07:02:31.970 TicTacToe[41645:2674321] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+07:02:32.159 TicTacToe[41645:2674194] -[XCTestDriver _runSuite]
+07:02:32.161 Xcode[35492:2328953] Starting test plan, clearing initialization timeout timer.
+07:02:32.161 TicTacToe[41645:2674194] Loading test suite...
+07:02:32.152 testmanagerd[41490:2673229] AX Notification 4002
+07:02:32.165 testmanagerd[41490:2673229] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+07:02:32.169 testmanagerd[41490:2673229] AX Notification 4002
+07:02:32.170 testmanagerd[41490:2673229] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+07:02:32.171 testmanagerd[41490:2673229] AX Notification 1000
+07:02:32.173 testmanagerd[41490:2673229] AX Notification 4002
+07:02:32.178 testmanagerd[41490:2673229] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidDisappear;
+}
+07:02:32.179 testmanagerd[41490:2673229] AX Notification 4002
+07:02:32.181 testmanagerd[41490:2673229] Got user testing notification with payload {
+    controllerClass = "TicTacToe.ViewController";
+    event = ViewDidAppear;
+}
+07:02:32.245 TicTacToe[41645:2674194] Finished loading test suite, took 0.084s
+07:02:32.246 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver testBundleWillStart:]
+07:02:32.246 TicTacToe[41645:2674194] Running suite...
+07:02:32.247 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver testSuiteWillStart:]
+2017-04-17 07:02:31.692 TicTacToe[41645:2674194] DEBUG > TicTacToe.ViewController > setupUI() : Refresh UI
+Test Suite 'All tests' started at 2017-04-17 07:02:32.246
+07:02:32.249 Xcode[35492:2673331] (LOG ARBITER) Rotating message buffer with 1 messages.
+07:02:32.254 Xcode[35492:2673331] (LOG ARBITER) Dumping buffered message data; 1 messages.
+07:02:33.016 Xcode[35492:2673331] (LOG ARBITER) Dumping buffered message data; 0 messages.
+07:02:32.248 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver testSuiteWillStart:]
+Test Suite 'TicTacToeTests.xctest' started at 2017-04-17 07:02:32.248
+07:02:32.249 Xcode[35492:2328953] _XCT_testSuite:TicTacToeTests.xctest didStartAt:2017-04-16 23:02:32 +0000
+07:02:32.249 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver testSuiteWillStart:]
+Test Suite 'TicTacToeTests' started at 2017-04-17 07:02:32.249
+07:02:32.250 Xcode[35492:2328953] _XCT_testSuite:TicTacToeTests didStartAt:2017-04-16 23:02:32 +0000
+07:02:32.250 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver testCaseWillStart:] TicTacToeTests.TicTacToeTests testExample
+Test Case '-[TicTacToeTests.TicTacToeTests testExample]' started.
+07:02:32.252 Xcode[35492:2328953] _XCT_testCaseDidStartForTestClass:TicTacToeTests.TicTacToeTests method:testExample
+07:02:32.252 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver testCaseDidFinish:]
+07:02:32.254 Xcode[35492:2328953] _XCT_testCaseDidFinishForTestClass:TicTacToeTests.TicTacToeTests method:testExample withStatus:passed duration:0.001792013645172119
+07:02:32.253 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver testCaseWillStart:] TicTacToeTests.TicTacToeTests testPerformanceExample
+Test Case '-[TicTacToeTests.TicTacToeTests testExample]' passed (0.002 seconds).
+Test Case '-[TicTacToeTests.TicTacToeTests testPerformanceExample]' started.
+07:02:32.254 Xcode[35492:2328953] _XCT_testCaseDidStartForTestClass:TicTacToeTests.TicTacToeTests method:testPerformanceExample
+07:02:32.683 testmanagerd[41490:2673229] AX Notification 1011
+07:02:33.012 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver _testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:]
+/Users/chiaweizhengterry/Desktop/TicTacToe/TicTacToeTests/TicTacToeTests.swift:33: Test Case '-[TicTacToeTests.TicTacToeTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 118.974%, values: [0.000003, 0.000001, 0.000001, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+07:02:33.013 Xcode[35492:2328953] -[IDETestOperationCoordinator _XCT_testMethod:ofClass:didMeasureMetric:file:line:]
+07:02:33.013 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver testCaseDidFinish:]
+07:02:33.016 Xcode[35492:2328953] _XCT_testCaseDidFinishForTestClass:TicTacToeTests.TicTacToeTests method:testPerformanceExample withStatus:passed duration:0.7604919672012329
+07:02:33.014 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+07:02:33.016 Xcode[35492:2328953] _XCT_testSuite:TicTacToeTests didFinishAt:2017-04-16 23:02:33 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.762283980846405 totalDuration:0.7649040222167969
+07:02:33.015 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+07:02:33.016 Xcode[35492:2328953] _XCT_testSuite:TicTacToeTests.xctest didFinishAt:2017-04-16 23:02:33 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.762283980846405 totalDuration:0.7666289806365967
+07:02:33.015 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+07:02:33.016 Xcode[35492:2328953] _XCT_testSuite:All tests didFinishAt:2017-04-16 23:02:33 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.762283980846405 totalDuration:0.7689089775085449
+07:02:33.016 TicTacToe[41645:2674194] Finished running suite.
+07:02:33.016 TicTacToe[41645:2674194] -[_XCTestDriverTestObserver testBundleDidFinish:], Flushing connection to IDE...
+07:02:33.017 Xcode[35492:2328953] -[IDETestOperationCoordinator _XCT_didFinishExecutingTestPlan]
+07:02:33.017 Xcode[35492:2328953] _finishWithError:(null) didCancel: 0
